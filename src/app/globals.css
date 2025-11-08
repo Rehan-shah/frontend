@@ -82,9 +82,10 @@ body {
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    border-color: theme('colors.gray.200');
   }
   body {
-    @apply bg-background text-foreground;
+    background-color: white;
+    color: black;
   }
 }
